@@ -12,6 +12,33 @@ The HK Grotesk Baybayin project is led by Alfredo Marco Pradil.
 
 ---
 
+## Gallery
+
+<table>
+  <tr>
+    <td><img src="images/HKGroteskBaybayin-3995_1.png" alt="Specimen 1"></td>
+    <td><img src="images/HKGroteskBaybayin-3995_2.png" alt="Specimen 2"></td>
+  </tr>
+  <tr>
+    <td><img src="images/HKGroteskBaybayin-3995_3.png" alt="Specimen 3"></td>
+    <td><img src="images/HKGroteskBaybayin-3995_4.png" alt="Specimen 4"></td>
+  </tr>
+  <tr>
+    <td><img src="images/HKGroteskBaybayin-3995_5.png" alt="Specimen 5"></td>
+    <td><img src="images/HKGroteskBaybayin-3995_6.png" alt="Specimen 6"></td>
+  </tr>
+  <tr>
+    <td><img src="images/HKGroteskBaybayin-3995_7.png" alt="Specimen 7"></td>
+    <td><img src="images/HKGroteskBaybayin-3995_8.png" alt="Specimen 8"></td>
+  </tr>
+  <tr>
+    <td><img src="images/HKGroteskBaybayin-3995_9.png" alt="Specimen 9"></td>
+    <td><img src="images/HKGroteskBaybayin-3995_10.png" alt="Specimen 10"></td>
+  </tr>
+</table>
+
+---
+
 ## Font Family
 
 | Style | Weight | Width | Optical Sizing |
@@ -81,6 +108,7 @@ All weights are available in both upright and italic variants.
 ```
 hk-grotesk-baybayin/
 ├── fonts/                 # TrueType fonts
+├── images/                # Specimen images
 ├── OFL.txt               # SIL Open Font License
 ├── README.md
 ├── CONTRIBUTORS.txt
