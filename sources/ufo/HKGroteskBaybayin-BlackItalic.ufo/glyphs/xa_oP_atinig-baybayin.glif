@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="xa_oPatinig-baybayin" format="2">
+  <advance width="2093"/>
+  <anchor x="1515" y="0" name="bottom"/>
+  <anchor x="1592" y="542" name="top"/>
+  <outline>
+    <component base="xa-baybayin"/>
+    <component base="oPatinig-baybayin" xOffset="1349"/>
+  </outline>
+</glyph>

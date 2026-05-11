@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="y_pamudpod.ss01" format="2">
+  <advance width="1210"/>
+  <anchor x="482" y="0" name="bottom"/>
+  <anchor x="559" y="542" name="top"/>
+  <outline>
+    <component base="ya_pamudpod-baybayin.by"/>
+  </outline>
+</glyph>

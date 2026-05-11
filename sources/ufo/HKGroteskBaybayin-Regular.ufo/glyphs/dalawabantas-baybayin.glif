@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalawabantas-baybayin" format="2">
+  <advance width="711"/>
+  <unicode hex="1736"/>
+  <outline>
+    <contour>
+      <point x="440" y="-303" type="line"/>
+      <point x="501" y="-303" type="line"/>
+      <point x="501" y="845" type="line"/>
+      <point x="440" y="845" type="line"/>
+    </contour>
+    <contour>
+      <point x="210" y="-303" type="line"/>
+      <point x="270" y="-303" type="line"/>
+      <point x="270" y="845" type="line"/>
+      <point x="210" y="845" type="line"/>
+    </contour>
+  </outline>
+</glyph>

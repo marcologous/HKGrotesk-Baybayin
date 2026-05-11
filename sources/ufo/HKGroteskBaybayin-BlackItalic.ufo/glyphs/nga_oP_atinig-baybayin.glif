@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nga_oPatinig-baybayin" format="2">
+  <advance width="1107"/>
+  <anchor x="528" y="0" name="bottom"/>
+  <anchor x="605" y="542" name="top"/>
+  <outline>
+    <component base="nga-baybayin"/>
+    <component base="oPatinig-baybayin" xOffset="362"/>
+  </outline>
+</glyph>

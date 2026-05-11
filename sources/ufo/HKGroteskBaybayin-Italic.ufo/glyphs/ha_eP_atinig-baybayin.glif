@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ha_ePatinig-baybayin" format="2">
+  <advance width="1128"/>
+  <anchor x="529" y="0" name="bottom"/>
+  <anchor x="606" y="542" name="top"/>
+  <outline>
+    <component base="ha-baybayin"/>
+    <component base="ePatinig-baybayin" xOffset="396" yOffset="49"/>
+  </outline>
+</glyph>

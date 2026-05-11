@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ja-baybayin" format="2">
+  <advance width="2103"/>
+  <anchor x="1470" y="0" name="bottom"/>
+  <anchor x="1547" y="542" name="top"/>
+  <outline>
+    <component base="da_iPatinig-baybayin"/>
+    <component base="ya-baybayin" xOffset="988"/>
+  </outline>
+</glyph>

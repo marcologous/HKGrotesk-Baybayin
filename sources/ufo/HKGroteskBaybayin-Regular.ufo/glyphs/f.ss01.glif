@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f.ss01" format="2">
+  <advance width="1063"/>
+  <anchor x="527" y="0" name="bottom"/>
+  <anchor x="527" y="542" name="top"/>
+  <outline>
+    <component base="pa_virama-baybayin"/>
+  </outline>
+</glyph>

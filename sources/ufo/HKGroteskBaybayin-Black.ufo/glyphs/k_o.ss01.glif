@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k_o.ss01" format="2">
+  <advance width="987"/>
+  <anchor x="495" y="0" name="bottom_1"/>
+  <anchor x="495" y="542" name="top_1"/>
+  <outline>
+    <component base="ka_uPatinig-baybayin"/>
+  </outline>
+</glyph>

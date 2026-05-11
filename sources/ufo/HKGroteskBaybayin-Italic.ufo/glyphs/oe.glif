@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oe" format="2">
+  <advance width="881"/>
+  <unicode hex="0153"/>
+  <anchor x="467" y="0" name="bottom"/>
+  <anchor x="288" y="0" name="ogonek"/>
+  <anchor x="504" y="493" name="top"/>
+  <anchor x="262" y="247" name="center"/>
+  <anchor x="430" y="493" name="topright"/>
+  <outline>
+    <component base="e" xOffset="396"/>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>e</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

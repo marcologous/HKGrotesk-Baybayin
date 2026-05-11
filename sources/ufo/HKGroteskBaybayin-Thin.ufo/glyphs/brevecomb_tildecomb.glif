@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb_tildecomb" format="2">
+  <anchor x="214" y="493" name="_top"/>
+  <anchor x="214" y="788" name="top"/>
+  <outline>
+    <contour>
+      <point x="214" y="569" type="curve" smooth="yes"/>
+      <point x="307" y="569"/>
+      <point x="359" y="614"/>
+      <point x="359" y="697" type="curve"/>
+      <point x="349" y="697" type="line"/>
+      <point x="349" y="620"/>
+      <point x="302" y="579"/>
+      <point x="214" y="579" type="curve" smooth="yes"/>
+      <point x="126" y="579"/>
+      <point x="79" y="620"/>
+      <point x="79" y="697" type="curve"/>
+      <point x="69" y="697" type="line"/>
+      <point x="69" y="614"/>
+      <point x="120" y="569"/>
+    </contour>
+    <contour>
+      <point x="278" y="730" type="curve" smooth="yes"/>
+      <point x="324" y="730"/>
+      <point x="342" y="756"/>
+      <point x="353" y="780" type="curve"/>
+      <point x="343" y="784" type="line"/>
+      <point x="331" y="754"/>
+      <point x="311" y="740"/>
+      <point x="278" y="740" type="curve" smooth="yes"/>
+      <point x="220" y="740"/>
+      <point x="211" y="788"/>
+      <point x="149" y="788" type="curve" smooth="yes"/>
+      <point x="104" y="788"/>
+      <point x="86" y="762"/>
+      <point x="75" y="738" type="curve"/>
+      <point x="85" y="734" type="line"/>
+      <point x="97" y="764"/>
+      <point x="117" y="778"/>
+      <point x="149" y="778" type="curve" smooth="yes"/>
+      <point x="207" y="778"/>
+      <point x="214" y="730"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>428</integer>
+    </dict>
+  </lib>
+</glyph>

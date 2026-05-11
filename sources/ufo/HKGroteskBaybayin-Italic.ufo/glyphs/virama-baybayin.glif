@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="virama-baybayin" format="2">
+  <advance width="452"/>
+  <unicode hex="1714"/>
+  <anchor x="191" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="119" y="-264" type="line"/>
+      <point x="189" y="-264" type="line"/>
+      <point x="199" y="-194" type="line"/>
+      <point x="309" y="-194" type="line"/>
+      <point x="318" y="-134" type="line"/>
+      <point x="208" y="-134" type="line"/>
+      <point x="217" y="-64" type="line"/>
+      <point x="147" y="-64" type="line"/>
+      <point x="138" y="-134" type="line"/>
+      <point x="28" y="-134" type="line"/>
+      <point x="19" y="-194" type="line"/>
+      <point x="129" y="-194" type="line"/>
+    </contour>
+  </outline>
+</glyph>

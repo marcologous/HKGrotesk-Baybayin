@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pamudpod-baybayin" format="2">
+  <advance width="181"/>
+  <unicode hex="1715"/>
+  <anchor x="-103" y="697" name="_pamudpod"/>
+  <outline>
+    <contour>
+      <point x="-325" y="-204" type="line"/>
+      <point x="-52" y="-204"/>
+      <point x="71" y="-70"/>
+      <point x="120" y="172" type="curve"/>
+      <point x="109" y="172" type="line"/>
+      <point x="62" y="-65"/>
+      <point x="-60" y="-194"/>
+      <point x="-324" y="-194" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
