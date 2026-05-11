@@ -1,39 +1,18 @@
-# HKGrotesk-Baybayin
+# HK Grotesk Baybayin
 
-<p align="center">
-  <img src="https://custom-icon-badges.demolab.com/badge/-HKGrotesk%20Baybayin-black?logo=hanken-typeface&logoColor=white&labelColor=2d2d2d" alt="HKGrotesk Baybayin">
-  <img src="https://img.shields.io/github/license/marcologous/hkgrotesk-baybayin?color=2d2d2d" alt="License">
-  <img src="https://img.shields.io/github/v/release/marcologous/hkgrotesk-baybayin?color=2d2d2d" alt="Release">
-  <img src="https://img.shields.io/github/last-commit/marcologous/hkgrotesk-baybayin?color=2d2d2d" alt="Last Commit">
-  <img src="https://img.shields.io/github/stars/marcologous/hkgrotesk-baybayin?color=2d2d2d" alt="Stars">
-  <img src="https://img.shields.io/github/forks/marcologous/hkgrotesk-baybayin?color=2d2d2d" alt="Forks">
-</p>
-
-<div align="center">
-
-## Baybayin Typeface Specification
-
-A Baybayin script typeface based on Hanken Grotesk, engineered for digital and print applications supporting the Filipino script.
-
-<br>
-
-**[Download Latest Release](https://github.com/marcologous/hkgrotesk-baybayin/releases)** · **[View Documentation](documentation/)** · **[Report Issue](https://github.com/marcologous/hkgrotesk-baybayin/issues)**
-
-</div>
+A Baybayin script typeface based on Hanken Grotesk.
 
 ---
 
-## 1. Typeface Overview
+## Typeface Overview
 
-HKGrotesk-Baybayin is a Baybayin script typeface based on the Hanken Grotesk design. Baybayin is a pre-colonial Philippine script used by the Tagalog, Kapampangan, and Pangasinan peoples. This project adapts the Hanken Grotesk Neo-Grotesque design to support Baybayin characters while maintaining visual consistency with the original Latin typeface.
+HK Grotesk Baybayin is a Baybayin script typeface based on the Hanken Grotesk design. Baybayin is a pre-colonial Philippine script used by the Tagalog, Kapampangan, and Pangasinan peoples. This project adapts the Hanken Grotesk Neo-Grotesque design to support Baybayin characters while maintaining visual consistency with the original Latin typeface.
 
-The HKGrotesk-Baybayin project is led by Alfredo Marco Pradil.
-
-To contribute, see github.com/marcologous/hkgrotesk-baybayin
+The HK Grotesk Baybayin project is led by Alfredo Marco Pradil.
 
 ---
 
-## 2. Font Family
+## Font Family
 
 | Style | Weight | Width | Optical Sizing |
 |-------|--------|-------|----------------|
@@ -53,7 +32,7 @@ All weights are available in both upright and italic variants.
 
 ---
 
-## 3. Technical Specifications
+## Technical Specifications
 
 ### Supported Formats
 
@@ -73,10 +52,10 @@ All weights are available in both upright and italic variants.
 
 ---
 
-## 4. Project Structure
+## Project Structure
 
 ```
-hkgrotesk-baybayin/
+hk-grotesk-baybayin/
 ├── fonts/                 # TrueType fonts
 ├── OFL.txt               # SIL Open Font License
 ├── README.md
@@ -86,25 +65,21 @@ hkgrotesk-baybayin/
 
 ---
 
-## 5. Contributing
+## Contributing
 
 Contributions are welcome. Please review the [contribution guidelines](CONTRIBUTORS.txt) before submitting enhancements or bug fixes.
 
-### Reporting Issues
-
-For technical issues (missing glyphs, rendering bugs), please [open an issue](https://github.com/marcologous/hkgrotesk-baybayin/issues).
-
 ---
 
-## 6. License
+## License
 
-HKGrotesk-Baybayin is distributed under the **SIL Open Font License 1.1**.
+HK Grotesk Baybayin is distributed under the **SIL Open Font License 1.1**.
 
 See [OFL.txt](OFL.txt) for full license text.
 
 ---
 
-## 7. Related Projects
+## Related Projects
 
 | Project | Description |
 |---------|-------------|
@@ -112,8 +87,4 @@ See [OFL.txt](OFL.txt) for full license text.
 
 ---
 
-<div align="center">
-
-*Built by [Hanken Design Co.](https://hankendesign.co)* · [Follow on GitHub](https://github.com/marcologous)
-
-</div>
+*Built by [Hanken Design Co.](https://hankendesign.co)*
