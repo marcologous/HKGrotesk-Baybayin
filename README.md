@@ -46,9 +46,33 @@ All weights are available in both upright and italic variants.
 
 ### OpenType Features
 
+#### GSUB (Glyph Substitution)
+
 | Feature | Tag | Description |
 |---------|-----|-------------|
-| kern | `kern` | Kerning pairs |
+| All Alternates | `aalt` | Access all available glyph alternates |
+| Case-Sensitive Forms | `case` | Adjusts punctuation for capitals |
+| Glyph Composition/Decomposition | `ccmp` | Composes/decomposes glyphs |
+| Discretionary Ligatures | `dlig` | Optional stylistic ligatures |
+| Denominators | `dnom` | Denominator figures |
+| Fractions | `frac` | Diagonal fractions |
+| Standard Ligatures | `liga` | Common ligatures (fi, fl, etc.) |
+| Localized Forms | `locl` | Language-specific character forms |
+| Numerators | `numr` | Numerator figures |
+| Ordinals | `ordn` | Ordinal forms (1st, 2nd, 3rd) |
+| Proportional Figures | `pnum` | Proportional width numerals |
+| Stylistic Set 1 | `ss01` | Stylistic alternates |
+| Superscript | `sups` | Superscript characters |
+| Tabular Figures | `tnum` | Monospaced numerals |
+
+#### GPOS (Glyph Positioning)
+
+| Feature | Tag | Description |
+|---------|-----|-------------|
+| Capital Spacing | `cpsp` | Spacing adjustments for capitals |
+| Kerning | `kern` | Kerning pairs |
+| Mark Positioning | `mark` | Positioning of combining marks |
+| Mark to Mark Positioning | `mkmk` | Positioning of marks relative to marks |
 
 ---
 
