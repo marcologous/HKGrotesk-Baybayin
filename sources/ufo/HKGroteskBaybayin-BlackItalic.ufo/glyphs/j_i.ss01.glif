@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j_i.ss01" format="2">
+  <advance width="2103"/>
+  <anchor x="460" y="0" name="bottom_1"/>
+  <anchor x="537" y="542" name="top_1"/>
+  <anchor x="1470" y="0" name="bottom_2"/>
+  <anchor x="1547" y="542" name="top_2"/>
+  <outline>
+    <component base="da_iPatinig-baybayin"/>
+    <component base="ya-baybayin" xOffset="988"/>
+    <component base="iPatinig-baybayin" xOffset="1312" yOffset="49"/>
+  </outline>
+</glyph>

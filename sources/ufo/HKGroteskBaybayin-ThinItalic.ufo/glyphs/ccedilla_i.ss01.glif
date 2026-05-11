@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ccedilla_i.ss01" format="2">
+  <advance width="1065"/>
+  <anchor x="510" y="0" name="bottom_1"/>
+  <anchor x="587" y="542" name="top_1"/>
+  <outline>
+    <component base="sa-baybayin"/>
+    <component base="ePatinig-baybayin" xOffset="385" yOffset="49"/>
+  </outline>
+</glyph>

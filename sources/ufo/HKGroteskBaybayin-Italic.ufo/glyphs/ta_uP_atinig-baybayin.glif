@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ta_uPatinig-baybayin" format="2">
+  <advance width="919"/>
+  <anchor x="424" y="0" name="bottom"/>
+  <anchor x="501" y="542" name="top"/>
+  <outline>
+    <component base="ta-baybayin"/>
+    <component base="uPatinig-baybayin" xOffset="286"/>
+  </outline>
+</glyph>

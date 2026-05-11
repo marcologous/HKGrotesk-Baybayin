@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400"/>
+    <axis tag="wdth" name="Width" minimum="100" maximum="100" default="100">
+      <map input="100" output="5"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="HKGroteskBaybayin-ThinItalic.ufo" name="HK Grotesk Baybayin Thin Italic" familyname="HK Grotesk Baybayin" stylename="Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+    </source>
+    <source filename="HKGroteskBaybayin-Italic.ufo" name="HK Grotesk Baybayin Italic" familyname="HK Grotesk Baybayin" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+    </source>
+    <source filename="HKGroteskBaybayin-BlackItalic.ufo" name="HK Grotesk Baybayin Black Italic" familyname="HK Grotesk Baybayin" stylename="Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="HK Grotesk Baybayin Thin Italic" familyname="HK Grotesk Baybayin" stylename="Thin Italic" filename="../instance_ufo/HKGroteskBaybayin-ThinItalic.ufo" stylemapfamilyname="HK Grotesk Baybayin Thin" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Scale to UPM</string>
+              <integer>2000</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="HK Grotesk Baybayin ExtraLight Italic" familyname="HK Grotesk Baybayin" stylename="ExtraLight Italic" filename="../instance_ufo/HKGroteskBaybayin-ExtraLightItalic.ufo" stylemapfamilyname="HK Grotesk Baybayin ExtraLight" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Scale to UPM</string>
+              <integer>2000</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="HK Grotesk Baybayin Light Italic" familyname="HK Grotesk Baybayin" stylename="Light Italic" filename="../instance_ufo/HKGroteskBaybayin-LightItalic.ufo" stylemapfamilyname="HK Grotesk Baybayin Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Scale to UPM</string>
+              <integer>2000</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="HK Grotesk Baybayin Italic" familyname="HK Grotesk Baybayin" stylename="Italic" filename="../instance_ufo/HKGroteskBaybayin-Italic.ufo" stylemapfamilyname="HK Grotesk Baybayin" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Scale to UPM</string>
+              <integer>2000</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="HK Grotesk Baybayin Medium Italic" familyname="HK Grotesk Baybayin" stylename="Medium Italic" filename="../instance_ufo/HKGroteskBaybayin-MediumItalic.ufo" stylemapfamilyname="HK Grotesk Baybayin Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Scale to UPM</string>
+              <integer>2000</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="HK Grotesk Baybayin SemiBold Italic" familyname="HK Grotesk Baybayin" stylename="SemiBold Italic" filename="../instance_ufo/HKGroteskBaybayin-SemiBoldItalic.ufo" stylemapfamilyname="HK Grotesk Baybayin SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Scale to UPM</string>
+              <integer>2000</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="HK Grotesk Baybayin Bold Italic" familyname="HK Grotesk Baybayin" stylename="Bold Italic" filename="../instance_ufo/HKGroteskBaybayin-BoldItalic.ufo" stylemapfamilyname="HK Grotesk Baybayin" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Scale to UPM</string>
+              <integer>2000</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="HK Grotesk Baybayin ExtraBold Italic" familyname="HK Grotesk Baybayin" stylename="ExtraBold Italic" filename="../instance_ufo/HKGroteskBaybayin-ExtraBoldItalic.ufo" stylemapfamilyname="HK Grotesk Baybayin ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Scale to UPM</string>
+              <integer>2000</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="HK Grotesk Baybayin Black Italic" familyname="HK Grotesk Baybayin" stylename="Black Italic" filename="../instance_ufo/HKGroteskBaybayin-BlackItalic.ufo" stylemapfamilyname="HK Grotesk Baybayin Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Width" xvalue="5"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Scale to UPM</string>
+              <integer>2000</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+</designspace>

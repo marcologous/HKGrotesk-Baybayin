@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cdotaccent" format="2">
+  <advance width="496"/>
+  <unicode hex="010B"/>
+  <anchor x="240" y="0" name="bottom"/>
+  <anchor x="311" y="697" name="top"/>
+  <outline>
+    <component base="c"/>
+    <component base="dotaccentcomb" xOffset="146"/>
+  </outline>
+</glyph>

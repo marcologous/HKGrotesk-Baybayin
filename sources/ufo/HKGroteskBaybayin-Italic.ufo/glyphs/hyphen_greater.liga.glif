@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen_greater.liga" format="2">
+  <advance width="1082"/>
+  <anchor x="541" y="0" name="caret_1"/>
+  <outline>
+    <component base="rightArrow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>rightArrow</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

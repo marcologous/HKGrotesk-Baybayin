@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ya-baybayin" format="2">
+  <advance width="1115"/>
+  <unicode hex="170C"/>
+  <anchor x="517" y="0" name="bottom"/>
+  <anchor x="517" y="542" name="top"/>
+  <outline>
+    <contour>
+      <point x="517" y="-10" type="curve" smooth="yes"/>
+      <point x="713" y="-10"/>
+      <point x="787" y="83"/>
+      <point x="787" y="211" type="curve" smooth="yes"/>
+      <point x="787" y="371" type="line" smooth="yes"/>
+      <point x="787" y="417"/>
+      <point x="811" y="440"/>
+      <point x="849" y="440" type="curve" smooth="yes"/>
+      <point x="887" y="440"/>
+      <point x="911" y="417"/>
+      <point x="911" y="381" type="curve" smooth="yes"/>
+      <point x="911" y="345"/>
+      <point x="887" y="322"/>
+      <point x="849" y="322" type="curve"/>
+      <point x="849" y="208" type="line"/>
+      <point x="977" y="208"/>
+      <point x="1058" y="271"/>
+      <point x="1058" y="381" type="curve" smooth="yes"/>
+      <point x="1058" y="491"/>
+      <point x="977" y="554"/>
+      <point x="849" y="554" type="curve" smooth="yes"/>
+      <point x="721" y="554"/>
+      <point x="640" y="491"/>
+      <point x="640" y="371" type="curve" smooth="yes"/>
+      <point x="640" y="258" type="line" smooth="yes"/>
+      <point x="640" y="173"/>
+      <point x="620" y="116"/>
+      <point x="517" y="116" type="curve" smooth="yes"/>
+      <point x="414" y="116"/>
+      <point x="394" y="173"/>
+      <point x="394" y="258" type="curve" smooth="yes"/>
+      <point x="394" y="542" type="line"/>
+      <point x="51" y="542" type="line"/>
+      <point x="51" y="422" type="line"/>
+      <point x="247" y="422" type="line"/>
+      <point x="247" y="211" type="line" smooth="yes"/>
+      <point x="247" y="83"/>
+      <point x="321" y="-10"/>
+    </contour>
+  </outline>
+</glyph>

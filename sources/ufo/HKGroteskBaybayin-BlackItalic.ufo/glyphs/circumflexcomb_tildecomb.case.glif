@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_tildecomb.case" format="2">
+  <anchor x="260" y="697" name="_top"/>
+  <anchor x="304" y="1011" name="top"/>
+  <outline>
+    <contour>
+      <point x="94" y="741" type="line"/>
+      <point x="235" y="741" type="line"/>
+      <point x="271" y="782" type="line"/>
+      <point x="297" y="741" type="line"/>
+      <point x="434" y="741" type="line"/>
+      <point x="282" y="854" type="line"/>
+    </contour>
+    <contour>
+      <point x="349" y="879" type="curve" smooth="yes"/>
+      <point x="412" y="879"/>
+      <point x="450" y="916"/>
+      <point x="459" y="988" type="curve"/>
+      <point x="375" y="988" type="line"/>
+      <point x="373" y="973"/>
+      <point x="364" y="959"/>
+      <point x="349" y="959" type="curve" smooth="yes"/>
+      <point x="317" y="959"/>
+      <point x="303" y="998"/>
+      <point x="242" y="998" type="curve" smooth="yes"/>
+      <point x="177" y="998"/>
+      <point x="135" y="959"/>
+      <point x="125" y="888" type="curve"/>
+      <point x="205" y="888" type="line"/>
+      <point x="208" y="902"/>
+      <point x="216" y="919"/>
+      <point x="238" y="919" type="curve" smooth="yes"/>
+      <point x="273" y="919"/>
+      <point x="277" y="879"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>390</integer>
+    </dict>
+  </lib>
+</glyph>

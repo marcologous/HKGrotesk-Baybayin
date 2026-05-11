@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sa_iPatinig-baybayin" format="2">
+  <advance width="1106"/>
+  <anchor x="563" y="0" name="bottom"/>
+  <anchor x="563" y="542" name="top"/>
+  <outline>
+    <component base="sa-baybayin"/>
+    <component base="iPatinig-baybayin" xOffset="380" yOffset="49"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="v_u.ss01" format="2">
+  <advance width="1002"/>
+  <anchor x="502" y="0" name="bottom_1"/>
+  <anchor x="502" y="542" name="top_1"/>
+  <outline>
+    <component base="ba-baybayin"/>
+    <component base="uPatinig-baybayin" xOffset="318"/>
+  </outline>
+</glyph>

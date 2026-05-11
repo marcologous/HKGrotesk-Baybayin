@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mga-baybayin" format="2">
+  <advance width="2134"/>
+  <anchor x="1555" y="0" name="bottom"/>
+  <anchor x="1632" y="542" name="top"/>
+  <outline>
+    <component base="ma-baybayin"/>
+    <component base="nga-baybayin" xOffset="1027"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ba_virama-baybayin" format="2">
+  <advance width="1002"/>
+  <anchor x="467" y="0" name="bottom"/>
+  <anchor x="544" y="542" name="top"/>
+  <outline>
+    <component base="ba-baybayin"/>
+    <component base="virama-baybayin" xOffset="248"/>
+  </outline>
+</glyph>

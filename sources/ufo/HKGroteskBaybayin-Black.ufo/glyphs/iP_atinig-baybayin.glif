@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iPatinig-baybayin" format="2">
+  <advance width="366"/>
+  <unicode hex="1712"/>
+  <anchor x="183" y="493" name="_top"/>
+  <outline>
+    <contour>
+      <point x="184" y="546" type="curve" smooth="yes"/>
+      <point x="256" y="546"/>
+      <point x="307" y="598"/>
+      <point x="307" y="671" type="curve" smooth="yes"/>
+      <point x="307" y="743"/>
+      <point x="256" y="794"/>
+      <point x="184" y="794" type="curve" smooth="yes"/>
+      <point x="111" y="794"/>
+      <point x="59" y="743"/>
+      <point x="59" y="671" type="curve" smooth="yes"/>
+      <point x="59" y="598"/>
+      <point x="111" y="546"/>
+    </contour>
+  </outline>
+</glyph>

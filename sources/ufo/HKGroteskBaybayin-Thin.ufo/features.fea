@@ -1,0 +1,647 @@
+# automatic
+@Uppercase = [ A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ndotaccent Nhookleft Ntilde Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Lcommaaccent.loclMAH Ncommaaccent.loclMAH Delta Omega
+];
+
+@BaybayinConsonants = [ ba-baybayin ka-baybayin da-baybayin ga-baybayin ha-baybayin la-baybayin ma-baybayin na-baybayin nga-baybayin pa-baybayin ra-baybayin sa-baybayin ta-baybayin wa-baybayin ya-baybayin ba_iPatinig-baybayin ba_uPatinig-baybayin ba_virama-baybayin ka_iPatinig-baybayin ka_uPatinig-baybayin ka_virama-baybayin da_iPatinig-baybayin da_uPatinig-baybayin da_virama-baybayin ga_iPatinig-baybayin ga_uPatinig-baybayin ga_virama-baybayin ha_iPatinig-baybayin ha_uPatinig-baybayin ha_virama-baybayin la_iPatinig-baybayin la_uPatinig-baybayin la_virama-baybayin ma_iPatinig-baybayin ma_uPatinig-baybayin ma_virama-baybayin na_iPatinig-baybayin na_uPatinig-baybayin na_virama-baybayin nga_iPatinig-baybayin nga_uPatinig-baybayin nga_virama-baybayin pa_iPatinig-baybayin pa_uPatinig-baybayin pa_virama-baybayin ra_iPatinig-baybayin ra_uPatinig-baybayin ra_virama-baybayin sa_iPatinig-baybayin sa_uPatinig-baybayin sa_virama-baybayin ta_iPatinig-baybayin ta_uPatinig-baybayin ta_virama-baybayin wa_iPatinig-baybayin wa_uPatinig-baybayin wa_virama-baybayin ya_iPatinig-baybayin ya_uPatinig-baybayin ya_virama-baybayin ba_ePatinig-baybayin ba_oPatinig-baybayin ka_ePatinig-baybayin ka_oPatinig-baybayin da_ePatinig-baybayin da_oPatinig-baybayin ga_ePatinig-baybayin ga_oPatinig-baybayin ha_ePatinig-baybayin ha_oPatinig-baybayin la_ePatinig-baybayin la_oPatinig-baybayin ma_ePatinig-baybayin ma_oPatinig-baybayin na_ePatinig-baybayin na_oPatinig-baybayin nga_ePatinig-baybayin nga_oPatinig-baybayin pa_ePatinig-baybayin pa_oPatinig-baybayin ra_ePatinig-baybayin ra_oPatinig-baybayin sa_ePatinig-baybayin sa_oPatinig-baybayin ta_ePatinig-baybayin ta_oPatinig-baybayin wa_ePatinig-baybayin wa_oPatinig-baybayin ya_ePatinig-baybayin ya_oPatinig-baybayin ja-baybayin ja_ePatinig-baybayin ja_iPatinig-baybayin ja_oPatinig-baybayin ja_uPatinig-baybayin mga-baybayin xa-baybayin xa_ePatinig-baybayin xa_iPatinig-baybayin xa_oPatinig-baybayin xa_uPatinig-baybayin xa_virama-baybayin nya-baybayin nya_ePatinig-baybayin nya_iPatinig-baybayin nya_oPatinig-baybayin nya_uPatinig-baybayin nya_virama-baybayin
+
+];
+
+@Vowels_IE = [ i I e E
+];
+
+@Vowels_OU = [ o O u U
+];
+
+@ViramaConsonants = [ ba_virama-baybayin ka_virama-baybayin da_virama-baybayin ga_virama-baybayin ha_virama-baybayin la_virama-baybayin ma_virama-baybayin na_virama-baybayin nga_virama-baybayin pa_virama-baybayin ra_virama-baybayin sa_virama-baybayin ta_virama-baybayin wa_virama-baybayin ya_virama-baybayin nya_virama-baybayin xa_virama-baybayin ja_virama-baybayin
+];
+
+@AllConsonants = [ ba-baybayin
+ba_ePatinig-baybayin
+ba_iPatinig-baybayin
+ba_oPatinig-baybayin
+ba_uPatinig-baybayin
+ba_virama-baybayin
+da-baybayin
+da_ePatinig-baybayin
+da_iPatinig-baybayin
+da_oPatinig-baybayin
+da_uPatinig-baybayin
+da_virama-baybayin
+ga-baybayin
+ga_ePatinig-baybayin
+ga_iPatinig-baybayin
+ga_oPatinig-baybayin
+ga_uPatinig-baybayin
+ga_virama-baybayin
+ha-baybayin
+ha_ePatinig-baybayin
+ha_iPatinig-baybayin
+ha_oPatinig-baybayin
+ha_uPatinig-baybayin
+ha_virama-baybayin
+ja-baybayin
+ja_ePatinig-baybayin
+ja_iPatinig-baybayin
+ja_oPatinig-baybayin
+ja_uPatinig-baybayin
+ja_virama-baybayin
+ka-baybayin
+ka_ePatinig-baybayin
+ka_iPatinig-baybayin
+ka_oPatinig-baybayin
+ka_uPatinig-baybayin
+ka_virama-baybayin
+la-baybayin
+la_ePatinig-baybayin
+la_iPatinig-baybayin
+la_oPatinig-baybayin
+la_uPatinig-baybayin
+la_virama-baybayin
+ma-baybayin
+ma_ePatinig-baybayin
+ma_iPatinig-baybayin
+ma_oPatinig-baybayin
+ma_uPatinig-baybayin
+ma_virama-baybayin
+na-baybayin
+na_ePatinig-baybayin
+na_iPatinig-baybayin
+na_oPatinig-baybayin
+na_uPatinig-baybayin
+na_virama-baybayin
+nga-baybayin
+nga_ePatinig-baybayin
+nga_iPatinig-baybayin
+nga_oPatinig-baybayin
+nga_uPatinig-baybayin
+nga_virama-baybayin
+nya-baybayin
+nya_ePatinig-baybayin
+nya_iPatinig-baybayin
+nya_oPatinig-baybayin
+nya_pamudpod-baybayin.by
+nya_uPatinig-baybayin
+nya_virama-baybayin
+pa-baybayin
+pa_ePatinig-baybayin
+pa_iPatinig-baybayin
+pa_oPatinig-baybayin
+pa_uPatinig-baybayin
+pa_virama-baybayin
+ra-baybayin
+ra_ePatinig-baybayin
+ra_iPatinig-baybayin
+ra_oPatinig-baybayin
+ra_uPatinig-baybayin
+ra_virama-baybayin
+sa-baybayin
+sa_ePatinig-baybayin
+sa_iPatinig-baybayin
+sa_oPatinig-baybayin
+sa_uPatinig-baybayin
+sa_virama-baybayin
+ta-baybayin
+ta_ePatinig-baybayin
+ta_iPatinig-baybayin
+ta_oPatinig-baybayin
+ta_uPatinig-baybayin
+ta_virama-baybayin
+wa-baybayin
+wa_ePatinig-baybayin
+wa_iPatinig-baybayin
+wa_oPatinig-baybayin
+wa_uPatinig-baybayin
+wa_virama-baybayin
+xa-baybayin
+xa_ePatinig-baybayin
+xa_iPatinig-baybayin
+xa_oPatinig-baybayin
+xa_uPatinig-baybayin
+xa_virama-baybayin
+ya-baybayin
+ya_ePatinig-baybayin
+ya_iPatinig-baybayin
+ya_oPatinig-baybayin
+ya_uPatinig-baybayin
+ya_virama-baybayin
+];
+
+@AllPunctuations = [ isabantas-baybayin dalawabantas-baybayin hyphen_greater.liga period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash hyphen softhyphen endash emdash horizontalbar underscore parenleft parenright braceleft braceright bracketleft bracketright parenleft.case parenright.case braceleft.case braceright.case bracketleft.case bracketright.case quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle 
+
+];
+
+@AllLetters = [ A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ndotaccent Nhookleft Ntilde Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Lcommaaccent.loclMAH Ncommaaccent.loclMAH a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove amacron aogonek aring aringacute atilde ae aeacute b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat eth e eacute ebreve ecaron ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotaccent edotbelow egrave ehookabove emacron eogonek etilde schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron h hbar hcircumflex i idotless iacute ibreve icaron icircumflex idieresis idotaccent idotbelow igrave ihookabove imacron iogonek itilde ij j jdotless jacute jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot lslash m n nacute napostrophe ncaron ncommaaccent ndotaccent nhookleft ntilde eng o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut omacron oogonek oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent s sacute scaron scedilla scircumflex scommaaccent germandbls t tbar tcaron tcedilla tcommaaccent u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut umacron uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent lcommaaccent.loclMAH ncommaaccent.loclMAH ordfeminine ordmasculine Delta Omega mu pi a-baybayin i-baybayin u-baybayin ba-baybayin ka-baybayin da-baybayin ga-baybayin ha-baybayin la-baybayin ma-baybayin na-baybayin nga-baybayin pa-baybayin ra-baybayin sa-baybayin ta-baybayin wa-baybayin ya-baybayin ba_iPatinig-baybayin ba_uPatinig-baybayin ba_virama-baybayin ka_iPatinig-baybayin ka_uPatinig-baybayin ka_virama-baybayin da_iPatinig-baybayin da_uPatinig-baybayin da_virama-baybayin ga_iPatinig-baybayin ga_uPatinig-baybayin ga_virama-baybayin ha_iPatinig-baybayin ha_uPatinig-baybayin ha_virama-baybayin la_iPatinig-baybayin la_uPatinig-baybayin la_virama-baybayin ma_iPatinig-baybayin ma_uPatinig-baybayin ma_virama-baybayin na_iPatinig-baybayin na_uPatinig-baybayin na_virama-baybayin nga_iPatinig-baybayin nga_uPatinig-baybayin nga_virama-baybayin pa_iPatinig-baybayin pa_uPatinig-baybayin pa_virama-baybayin ra_iPatinig-baybayin ra_uPatinig-baybayin ra_virama-baybayin sa_iPatinig-baybayin sa_uPatinig-baybayin sa_virama-baybayin ta_iPatinig-baybayin ta_uPatinig-baybayin ta_virama-baybayin wa_iPatinig-baybayin wa_uPatinig-baybayin wa_virama-baybayin ya_iPatinig-baybayin ya_uPatinig-baybayin ya_virama-baybayin ba_pamudpod-baybayin.by ka_pamudpod-baybayin.by da_pamudpod-baybayin.by ga_pamudpod-baybayin.by ha_pamudpod-baybayin.by la_pamudpod-baybayin.by ma_pamudpod-baybayin.by na_pamudpod-baybayin.by nga_pamudpod-baybayin.by pa_pamudpod-baybayin.by ra_pamudpod-baybayin.by sa_pamudpod-baybayin.by ta_pamudpod-baybayin.by wa_pamudpod-baybayin.by ya_pamudpod-baybayin.by ba_ePatinig-baybayin ba_oPatinig-baybayin ka_ePatinig-baybayin ka_oPatinig-baybayin da_ePatinig-baybayin da_oPatinig-baybayin ga_ePatinig-baybayin ga_oPatinig-baybayin ha_ePatinig-baybayin ha_oPatinig-baybayin la_ePatinig-baybayin la_oPatinig-baybayin ma_ePatinig-baybayin ma_oPatinig-baybayin na_ePatinig-baybayin na_oPatinig-baybayin nga_ePatinig-baybayin nga_oPatinig-baybayin pa_ePatinig-baybayin pa_oPatinig-baybayin ra_ePatinig-baybayin ra_oPatinig-baybayin sa_ePatinig-baybayin sa_oPatinig-baybayin ta_ePatinig-baybayin ta_oPatinig-baybayin wa_ePatinig-baybayin wa_oPatinig-baybayin ya_ePatinig-baybayin ya_oPatinig-baybayin zero one two three four five six seven eight nine zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr fraction onehalf onequarter threequarters onesuperior twosuperior threesuperior IJacute e-baybayin ePatinig-baybayin ijacute ja-baybayin ja_ePatinig-baybayin ja_iPatinig-baybayin ja_oPatinig-baybayin ja_uPatinig-baybayin mga-baybayin nya-baybayin nya_ePatinig-baybayin nya_iPatinig-baybayin nya_oPatinig-baybayin nya_uPatinig-baybayin nya_virama-baybayin o-baybayin oPatinig-baybayin panamdam-baybayin pananong-baybayin xa-baybayin xa_ePatinig-baybayin xa_iPatinig-baybayin xa_oPatinig-baybayin xa_uPatinig-baybayin xa_virama-baybayin ja_pamudpod-baybayin.by nya_pamudpod-baybayin.by xa_pamudpod-baybayin.by
+
+];
+
+@Pamudpod = [ ba_pamudpod-baybayin.by ka_pamudpod-baybayin.by da_pamudpod-baybayin.by ga_pamudpod-baybayin.by ha_pamudpod-baybayin.by la_pamudpod-baybayin.by ma_pamudpod-baybayin.by na_pamudpod-baybayin.by nga_pamudpod-baybayin.by pa_pamudpod-baybayin.by ra_pamudpod-baybayin.by sa_pamudpod-baybayin.by ta_pamudpod-baybayin.by wa_pamudpod-baybayin.by ya_pamudpod-baybayin.by ja_pamudpod-baybayin.by nya_pamudpod-baybayin.by xa_pamudpod-baybayin.by 
+
+];
+
+@AllGlyphs = [ A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcircumflex I IJ Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ndotaccent Nhookleft Ntilde Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Lcommaaccent.loclMAH Ncommaaccent.loclMAH a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove amacron aogonek aring aringacute atilde ae aeacute b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat eth e eacute ebreve ecaron ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotaccent edotbelow egrave ehookabove emacron eogonek etilde schwa f g gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron h hbar hcircumflex i idotless iacute ibreve icaron icircumflex idieresis idotaccent idotbelow igrave ihookabove imacron iogonek itilde ij j jdotless jacute jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot lslash m n nacute napostrophe ncaron ncommaaccent ndotaccent nhookleft ntilde eng o oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut omacron oogonek oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent s sacute scaron scedilla scircumflex scommaaccent germandbls t tbar tcaron tcedilla tcommaaccent u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut umacron uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ydotbelow ygrave yhookabove ymacron ytilde z zacute zcaron zdotaccent lcommaaccent.loclMAH ncommaaccent.loclMAH ordfeminine ordmasculine Delta Omega mu pi a-baybayin i-baybayin u-baybayin ba-baybayin ka-baybayin da-baybayin ga-baybayin ha-baybayin la-baybayin ma-baybayin na-baybayin nga-baybayin pa-baybayin ra-baybayin sa-baybayin ta-baybayin wa-baybayin ya-baybayin ba_iPatinig-baybayin ba_uPatinig-baybayin ba_virama-baybayin ka_iPatinig-baybayin ka_uPatinig-baybayin ka_virama-baybayin da_iPatinig-baybayin da_uPatinig-baybayin da_virama-baybayin ga_iPatinig-baybayin ga_uPatinig-baybayin ga_virama-baybayin ha_iPatinig-baybayin ha_uPatinig-baybayin ha_virama-baybayin la_iPatinig-baybayin la_uPatinig-baybayin la_virama-baybayin ma_iPatinig-baybayin ma_uPatinig-baybayin ma_virama-baybayin na_iPatinig-baybayin na_uPatinig-baybayin na_virama-baybayin nga_iPatinig-baybayin nga_uPatinig-baybayin nga_virama-baybayin pa_iPatinig-baybayin pa_uPatinig-baybayin pa_virama-baybayin ra_iPatinig-baybayin ra_uPatinig-baybayin ra_virama-baybayin sa_iPatinig-baybayin sa_uPatinig-baybayin sa_virama-baybayin ta_iPatinig-baybayin ta_uPatinig-baybayin ta_virama-baybayin wa_iPatinig-baybayin wa_uPatinig-baybayin wa_virama-baybayin ya_iPatinig-baybayin ya_uPatinig-baybayin ya_virama-baybayin ba_pamudpod-baybayin.by ka_pamudpod-baybayin.by da_pamudpod-baybayin.by ga_pamudpod-baybayin.by ha_pamudpod-baybayin.by la_pamudpod-baybayin.by ma_pamudpod-baybayin.by na_pamudpod-baybayin.by nga_pamudpod-baybayin.by pa_pamudpod-baybayin.by ra_pamudpod-baybayin.by sa_pamudpod-baybayin.by ta_pamudpod-baybayin.by wa_pamudpod-baybayin.by ya_pamudpod-baybayin.by ba_ePatinig-baybayin ba_oPatinig-baybayin ka_ePatinig-baybayin ka_oPatinig-baybayin da_ePatinig-baybayin da_oPatinig-baybayin ga_ePatinig-baybayin ga_oPatinig-baybayin ha_ePatinig-baybayin ha_oPatinig-baybayin la_ePatinig-baybayin la_oPatinig-baybayin ma_ePatinig-baybayin ma_oPatinig-baybayin na_ePatinig-baybayin na_oPatinig-baybayin nga_ePatinig-baybayin nga_oPatinig-baybayin pa_ePatinig-baybayin pa_oPatinig-baybayin ra_ePatinig-baybayin ra_oPatinig-baybayin sa_ePatinig-baybayin sa_oPatinig-baybayin ta_ePatinig-baybayin ta_oPatinig-baybayin wa_ePatinig-baybayin wa_oPatinig-baybayin ya_ePatinig-baybayin ya_oPatinig-baybayin zero one two three four five six seven eight nine zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr fraction onehalf onequarter threequarters onesuperior twosuperior threesuperior IJacute ja-baybayin e-baybayin ePatinig-baybayin ijacute ja-baybayin ja_ePatinig-baybayin ja_iPatinig-baybayin ja_oPatinig-baybayin ja_uPatinig-baybayin mga-baybayin nya-baybayin nya_ePatinig-baybayin nya_iPatinig-baybayin nya_oPatinig-baybayin nya_uPatinig-baybayin nya_virama-baybayin o-baybayin oPatinig-baybayin panamdam-baybayin pananong-baybayin xa-baybayin xa_ePatinig-baybayin xa_iPatinig-baybayin xa_oPatinig-baybayin xa_uPatinig-baybayin xa_virama-baybayin ja_pamudpod-baybayin.by nya_pamudpod-baybayin.by xa_pamudpod-baybayin.by
+
+];
+
+@ViramaConsonants_ss01 = [ b.ss01 c.ss01 d.ss01 f.ss01 g.ss01 h.ss01 j.ss01 k.ss01 l.ss01 m.ss01 n.ss01 n_g.ss01 p.ss01 q.ss01 r.ss01 s.ss01 t.ss01 v.ss01 w.ss01 x.ss01 y.ss01 z.ss01 ntilde.ss01 ccedilla.ss01
+];
+
+@Pamudpod_ss01 = [ b_pamudpod.ss01 c_pamudpod.ss01 d_pamudpod.ss01 f_pamudpod.ss01 g_pamudpod.ss01 h_pamudpod.ss01 j_pamudpod.ss01 k_pamudpod.ss01 l_pamudpod.ss01 m_pamudpod.ss01 n_pamudpod.ss01 n_g_pamudpod.ss01 p_pamudpod.ss01 q_pamudpod.ss01 r_pamudpod.ss01 s_pamudpod.ss01 t_pamudpod.ss01 v_pamudpod.ss01 w_pamudpod.ss01 x_pamudpod.ss01 y_pamudpod.ss01 z_pamudpod.ss01 ntilde_pamudpod.ss01 ccedilla_pamudpod.ss01
+];
+
+@Punctuation_ss01 = [ space nbspace period.ss01 comma.ss01 exclam.ss01 question.ss01
+];
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+
+languagesystem tglg dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn MAH;
+languagesystem latn CAT;
+languagesystem latn NLD;
+
+
+feature aalt {
+# automatic
+feature locl;
+feature sups;
+feature numr;
+feature dnom;
+feature frac;
+feature ordn;
+feature pnum;
+feature tnum;
+feature case;
+feature ss01;
+
+} aalt;
+
+feature ccmp {
+# automatic
+lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
+
+lookup ccmp_DFLT_2 {
+	lookupflag 0;
+	sub brevecomb acutecomb by brevecomb_acutecomb;
+	sub brevecomb gravecomb by brevecomb_gravecomb;
+	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
+	sub brevecomb tildecomb by brevecomb_tildecomb;
+	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
+} ccmp_DFLT_2;
+
+lookup ccmp_Other_1 {
+	lookupflag 0;
+	@Markscomb = [tonos circumflexcomb circumflexcomb_gravecomb circumflexcomb_acutecomb circumflexcomb_tildecomb circumflexcomb_hookabovecomb brevecomb brevecomb_gravecomb brevecomb_acutecomb brevecomb_tildecomb brevecomb_hookabovecomb ringcomb tildecomb slashshortcomb slashlongcomb];
+	@MarkscombCase = [tonos.case circumflexcomb.case circumflexcomb_gravecomb.case circumflexcomb_acutecomb.case circumflexcomb_tildecomb.case circumflexcomb_hookabovecomb.case brevecomb.case brevecomb_gravecomb.case brevecomb_acutecomb.case brevecomb_tildecomb.case brevecomb_hookabovecomb.case ringcomb.case tildecomb.case slashshortcomb.case slashlongcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
+lookup ccmp_tglg_1 {
+	lookupflag 0;
+	sub ba-baybayin iPatinig-baybayin by ba_iPatinig-baybayin;
+	sub ba-baybayin uPatinig-baybayin by ba_uPatinig-baybayin;
+	sub ba-baybayin virama-baybayin by ba_virama-baybayin;
+	sub da-baybayin iPatinig-baybayin by da_iPatinig-baybayin;
+	sub da-baybayin uPatinig-baybayin by da_uPatinig-baybayin;
+	sub da-baybayin virama-baybayin by da_virama-baybayin;
+	sub ga-baybayin iPatinig-baybayin by ga_iPatinig-baybayin;
+	sub ga-baybayin uPatinig-baybayin by ga_uPatinig-baybayin;
+	sub ga-baybayin virama-baybayin by ga_virama-baybayin;
+	sub ha-baybayin iPatinig-baybayin by ha_iPatinig-baybayin;
+	sub ha-baybayin uPatinig-baybayin by ha_uPatinig-baybayin;
+	sub ha-baybayin virama-baybayin by ha_virama-baybayin;
+	sub ka-baybayin iPatinig-baybayin by ka_iPatinig-baybayin;
+	sub ka-baybayin uPatinig-baybayin by ka_uPatinig-baybayin;
+	sub ka-baybayin virama-baybayin by ka_virama-baybayin;
+	sub la-baybayin iPatinig-baybayin by la_iPatinig-baybayin;
+	sub la-baybayin uPatinig-baybayin by la_uPatinig-baybayin;
+	sub la-baybayin virama-baybayin by la_virama-baybayin;
+	sub ma-baybayin iPatinig-baybayin by ma_iPatinig-baybayin;
+	sub ma-baybayin uPatinig-baybayin by ma_uPatinig-baybayin;
+	sub ma-baybayin virama-baybayin by ma_virama-baybayin;
+	sub na-baybayin iPatinig-baybayin by na_iPatinig-baybayin;
+	sub na-baybayin uPatinig-baybayin by na_uPatinig-baybayin;
+	sub na-baybayin virama-baybayin by na_virama-baybayin;
+	sub nga-baybayin iPatinig-baybayin by nga_iPatinig-baybayin;
+	sub nga-baybayin uPatinig-baybayin by nga_uPatinig-baybayin;
+	sub nga-baybayin virama-baybayin by nga_virama-baybayin;
+	sub pa-baybayin iPatinig-baybayin by pa_iPatinig-baybayin;
+	sub pa-baybayin uPatinig-baybayin by pa_uPatinig-baybayin;
+	sub pa-baybayin virama-baybayin by pa_virama-baybayin;
+	sub ra-baybayin iPatinig-baybayin by ra_iPatinig-baybayin;
+	sub ra-baybayin uPatinig-baybayin by ra_uPatinig-baybayin;
+	sub ra-baybayin virama-baybayin by ra_virama-baybayin;
+	sub sa-baybayin iPatinig-baybayin by sa_iPatinig-baybayin;
+	sub sa-baybayin uPatinig-baybayin by sa_uPatinig-baybayin;
+	sub sa-baybayin virama-baybayin by sa_virama-baybayin;
+	sub ta-baybayin iPatinig-baybayin by ta_iPatinig-baybayin;
+	sub ta-baybayin uPatinig-baybayin by ta_uPatinig-baybayin;
+	sub ta-baybayin virama-baybayin by ta_virama-baybayin;
+	sub wa-baybayin iPatinig-baybayin by wa_iPatinig-baybayin;
+	sub wa-baybayin uPatinig-baybayin by wa_uPatinig-baybayin;
+	sub wa-baybayin virama-baybayin by wa_virama-baybayin;
+	sub ya-baybayin iPatinig-baybayin by ya_iPatinig-baybayin;
+	sub ya-baybayin uPatinig-baybayin by ya_uPatinig-baybayin;
+	sub ya-baybayin virama-baybayin by ya_virama-baybayin;
+} ccmp_tglg_1;
+
+script tglg;
+lookup ccmp_tglg_1;
+
+script latn;
+lookup ccmp_latn_1;
+
+} ccmp;
+
+feature locl {
+# automatic
+script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language MAH;
+lookup locl_latn_2 {
+	sub Lcommaaccent by Lcommaaccent.loclMAH;
+	sub Ncommaaccent by Ncommaaccent.loclMAH;
+	sub lcommaaccent by lcommaaccent.loclMAH;
+	sub ncommaaccent by ncommaaccent.loclMAH;
+	sub commaaccentcomb by commaaccentcomb.loclMAH;
+} locl_latn_2;
+
+script latn;
+language CAT;
+lookup locl_latn_3 {
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_3;
+
+script latn;
+language NLD;
+lookup locl_latn_4 {
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_4;
+
+} locl;
+
+feature sups {
+# automatic
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+
+} sups;
+
+feature numr {
+# automatic
+sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+
+} numr;
+
+feature dnom {
+# automatic
+sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+
+} dnom;
+
+feature frac {
+# automatic
+lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+
+} frac;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
+
+} ordn;
+
+feature pnum {
+# automatic
+sub zero by zero.lf;
+sub one by one.lf;
+sub two by two.lf;
+sub three by three.lf;
+sub four by four.lf;
+sub five by five.lf;
+sub six by six.lf;
+sub seven by seven.lf;
+sub eight by eight.lf;
+sub nine by nine.lf;
+
+} pnum;
+
+feature tnum {
+# automatic
+sub zero.lf by zero;
+sub one.lf by one;
+sub two.lf by two;
+sub three.lf by three;
+sub four.lf by four;
+sub five.lf by five;
+sub six.lf by six;
+sub seven.lf by seven;
+sub eight.lf by eight;
+sub nine.lf by nine;
+
+} tnum;
+
+feature case {
+# automatic
+sub parenleft by parenleft.case;
+sub parenright by parenright.case;
+sub braceleft by braceleft.case;
+sub braceright by braceright.case;
+sub bracketleft by bracketleft.case;
+sub bracketright by bracketright.case;
+sub tonos by tonos.case;
+sub circumflexcomb by circumflexcomb.case;
+sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;
+sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;
+sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;
+sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;
+sub brevecomb by brevecomb.case;
+sub brevecomb_gravecomb by brevecomb_gravecomb.case;
+sub brevecomb_acutecomb by brevecomb_acutecomb.case;
+sub brevecomb_tildecomb by brevecomb_tildecomb.case;
+sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;
+sub ringcomb by ringcomb.case;
+sub tildecomb by tildecomb.case;
+sub slashshortcomb by slashshortcomb.case;
+sub slashlongcomb by slashlongcomb.case;
+
+} case;
+
+feature dlig {
+# automatic
+lookupflag IgnoreMarks;
+sub ba-baybayin ePatinig-baybayin by ba_ePatinig-baybayin;
+sub ba-baybayin oPatinig-baybayin by ba_oPatinig-baybayin;
+sub da-baybayin ePatinig-baybayin by da_ePatinig-baybayin;
+sub da-baybayin oPatinig-baybayin by da_oPatinig-baybayin;
+sub ga-baybayin ePatinig-baybayin by ga_ePatinig-baybayin;
+sub ga-baybayin oPatinig-baybayin by ga_oPatinig-baybayin;
+sub ha-baybayin ePatinig-baybayin by ha_ePatinig-baybayin;
+sub ha-baybayin oPatinig-baybayin by ha_oPatinig-baybayin;
+sub ka-baybayin ePatinig-baybayin by ka_ePatinig-baybayin;
+sub ka-baybayin oPatinig-baybayin by ka_oPatinig-baybayin;
+sub la-baybayin ePatinig-baybayin by la_ePatinig-baybayin;
+sub la-baybayin oPatinig-baybayin by la_oPatinig-baybayin;
+sub ma-baybayin ePatinig-baybayin by ma_ePatinig-baybayin;
+sub ma-baybayin oPatinig-baybayin by ma_oPatinig-baybayin;
+sub na-baybayin ePatinig-baybayin by na_ePatinig-baybayin;
+sub na-baybayin oPatinig-baybayin by na_oPatinig-baybayin;
+sub nga-baybayin ePatinig-baybayin by nga_ePatinig-baybayin;
+sub nga-baybayin oPatinig-baybayin by nga_oPatinig-baybayin;
+sub pa-baybayin ePatinig-baybayin by pa_ePatinig-baybayin;
+sub pa-baybayin oPatinig-baybayin by pa_oPatinig-baybayin;
+sub ra-baybayin ePatinig-baybayin by ra_ePatinig-baybayin;
+sub ra-baybayin oPatinig-baybayin by ra_oPatinig-baybayin;
+sub sa-baybayin ePatinig-baybayin by sa_ePatinig-baybayin;
+sub sa-baybayin oPatinig-baybayin by sa_oPatinig-baybayin;
+sub ta-baybayin ePatinig-baybayin by ta_ePatinig-baybayin;
+sub ta-baybayin oPatinig-baybayin by ta_oPatinig-baybayin;
+sub wa-baybayin ePatinig-baybayin by wa_ePatinig-baybayin;
+sub wa-baybayin oPatinig-baybayin by wa_oPatinig-baybayin;
+sub ya-baybayin ePatinig-baybayin by ya_ePatinig-baybayin;
+sub ya-baybayin oPatinig-baybayin by ya_oPatinig-baybayin;
+
+} dlig;
+
+feature liga {
+# automatic
+lookupflag IgnoreMarks;
+sub hyphen greater by hyphen_greater.liga;
+sub less hyphen by less_hyphen.liga;
+sub f i by fi;
+sub f l by fl;
+
+} liga;
+
+feature ss01 {
+featureNames {
+  name "Baybayin";
+};
+# ==========================================
+# LOOKUP 1: Normalize Latin (Strip Diacritics)
+# ==========================================
+lookup StripDiacritics {
+    # --- Uppercase ---
+    sub [Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Aringacute Atilde] by A;
+    sub [Cacute Ccaron Ccircumflex Cdotaccent] by C;
+    sub [Dcaron Dcroat Eth] by D;
+    sub [Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde AEacute] by E;
+    sub [Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron] by G;
+    sub [Hbar Hcircumflex] by H;
+    sub [IJ Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde] by I;
+    sub [Jacute Jcircumflex] by J;
+    sub Kcommaaccent by K;
+    sub [Lacute Lcaron Lcommaaccent Ldot Lslash Lcommaaccent.loclMAH] by L;
+    sub [Nacute Ncaron Ncommaaccent Ndotaccent Ncommaaccent.loclMAH] by N;
+    sub [Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oogonek Oslash Oslashacute Otilde] by O;
+    sub [Racute Rcaron Rcommaaccent] by R;
+    sub [Sacute Scaron Scedilla Scircumflex Scommaaccent] by S;
+    sub [Tbar Tcaron Tcedilla Tcommaaccent] by T;
+    sub [Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde OE] by U;
+    sub [Wacute Wcircumflex Wdieresis Wgrave] by W;
+    sub [Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ymacron Ytilde] by Y;
+    sub [Zacute Zcaron Zdotaccent] by Z;
+
+    # --- Lowercase ---
+    sub [aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove amacron aogonek aring aringacute atilde] by a;
+    sub [cacute ccaron ccircumflex cdotaccent] by c;
+    sub [dcaron dcroat] by d;
+    sub [eacute ebreve ecaron ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotaccent edotbelow egrave ehookabove emacron eogonek etilde schwa aeacute] by e;
+    sub [gbreve gcaron gcircumflex gcommaaccent gdotaccent gmacron] by g;
+    sub [hbar hcircumflex] by h;
+    sub [iacute ibreve icaron icircumflex idieresis idotaccent idotbelow igrave ihookabove imacron iogonek itilde ij] by i;
+    sub [jacute jcircumflex] by j;
+    sub kcommaaccent by k;
+    sub [lacute lcaron lcommaaccent ldot lslash lcommaaccent.loclMAH] by l;
+    sub [nacute napostrophe ncaron ncommaaccent ndotaccent ncommaaccent.loclMAH] by n;
+    sub [oacute obreve ocaron ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde ohungarumlaut omacron oogonek oslash oslashacute otilde] by o;
+    sub [racute rcaron rcommaaccent] by r;
+    sub [sacute scaron scedilla scircumflex scommaaccent] by s;
+    sub [tbar tcaron tcedilla tcommaaccent] by t;
+    sub [uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde uhungarumlaut umacron uogonek uring utilde oe] by u;
+    sub [wacute wcircumflex wdieresis wgrave] by w;
+    sub [yacute ycircumflex ydieresis ydotbelow ygrave yhookabove ymacron ytilde] by y;
+    sub [zacute zcaron zdotaccent] by z;
+} StripDiacritics;
+
+# ==========================================
+# LOOKUP 2: Multi-Character Syllables (Ligatures)
+# ==========================================
+lookup BaybayinLigatures {
+    # --- 3-Character Sequences ---
+    sub [n N] [g G] [a A] by n_g_a.ss01;
+    sub [n N] [g G] [e E] by n_g_e.ss01;
+    sub [n N] [g G] [i I] by n_g_i.ss01;
+    sub [n N] [g G] [o O] by n_g_o.ss01;
+    sub [n N] [g G] [u U] by n_g_u.ss01;
+    sub [m M] [g G] [a A] by m_g_a.ss01;
+
+    # --- 2-Character Sequences ---
+    sub [b B] [a A] by b_a.ss01; sub [b B] [e E] by b_e.ss01; sub [b B] [i I] by b_i.ss01; sub [b B] [o O] by b_o.ss01; sub [b B] [u U] by b_u.ss01;
+    sub [c C] [a A] by c_a.ss01; sub [c C] [e E] by c_e.ss01; sub [c C] [i I] by c_i.ss01; sub [c C] [o O] by c_o.ss01; sub [c C] [u U] by c_u.ss01;
+    sub [d D] [a A] by d_a.ss01; sub [d D] [e E] by d_e.ss01; sub [d D] [i I] by d_i.ss01; sub [d D] [o O] by d_o.ss01; sub [d D] [u U] by d_u.ss01;
+    sub [f F] [a A] by f_a.ss01; sub [f F] [e E] by f_e.ss01; sub [f F] [i I] by f_i.ss01; sub [f F] [o O] by f_o.ss01; sub [f F] [u U] by f_u.ss01;
+    sub [g G] [a A] by g_a.ss01; sub [g G] [e E] by g_e.ss01; sub [g G] [i I] by g_i.ss01; sub [g G] [o O] by g_o.ss01; sub [g G] [u U] by g_u.ss01;
+    sub [h H] [a A] by h_a.ss01; sub [h H] [e E] by h_e.ss01; sub [h H] [i I] by h_i.ss01; sub [h H] [o O] by h_o.ss01; sub [h H] [u U] by h_u.ss01;
+    sub [j J] [a A] by j_a.ss01; sub [j J] [e E] by j_e.ss01; sub [j J] [i I] by j_i.ss01; sub [j J] [o O] by j_o.ss01; sub [j J] [u U] by j_u.ss01;
+    sub [k K] [a A] by k_a.ss01; sub [k K] [e E] by k_e.ss01; sub [k K] [i I] by k_i.ss01; sub [k K] [o O] by k_o.ss01; sub [k K] [u U] by k_u.ss01;
+    sub [l L] [a A] by l_a.ss01; sub [l L] [e E] by l_e.ss01; sub [l L] [i I] by l_i.ss01; sub [l L] [o O] by l_o.ss01; sub [l L] [u U] by l_u.ss01;
+    sub [m M] [a A] by m_a.ss01; sub [m M] [e E] by m_e.ss01; sub [m M] [i I] by m_i.ss01; sub [m M] [o O] by m_o.ss01; sub [m M] [u U] by m_u.ss01;
+    sub [n N] [a A] by n_a.ss01; sub [n N] [e E] by n_e.ss01; sub [n N] [i I] by n_i.ss01; sub [n N] [o O] by n_o.ss01; sub [n N] [u U] by n_u.ss01;
+    sub [p P] [a A] by p_a.ss01; sub [p P] [e E] by p_e.ss01; sub [p P] [i I] by p_i.ss01; sub [p P] [o O] by p_o.ss01; sub [p P] [u U] by p_u.ss01;
+    sub [q Q] [a A] by q_a.ss01; sub [q Q] [e E] by q_e.ss01; sub [q Q] [i I] by q_i.ss01; sub [q Q] [o O] by q_o.ss01; sub [q Q] [u U] by q_u.ss01;
+    sub [r R] [a A] by r_a.ss01; sub [r R] [e E] by r_e.ss01; sub [r R] [i I] by r_i.ss01; sub [r R] [o O] by r_o.ss01; sub [r R] [u U] by r_u.ss01;
+    sub [s S] [a A] by s_a.ss01; sub [s S] [e E] by s_e.ss01; sub [s S] [i I] by s_i.ss01; sub [s S] [o O] by s_o.ss01; sub [s S] [u U] by s_u.ss01;
+    sub [t T] [a A] by t_a.ss01; sub [t T] [e E] by t_e.ss01; sub [t T] [i I] by t_i.ss01; sub [t T] [o O] by t_o.ss01; sub [t T] [u U] by t_u.ss01;
+    sub [v V] [a A] by v_a.ss01; sub [v V] [e E] by v_e.ss01; sub [v V] [i I] by v_i.ss01; sub [v V] [o O] by v_o.ss01; sub [v V] [u U] by v_u.ss01;
+    sub [w W] [a A] by w_a.ss01; sub [w W] [e E] by w_e.ss01; sub [w W] [i I] by w_i.ss01; sub [w W] [o O] by w_o.ss01; sub [w W] [u U] by w_u.ss01;
+    sub [x X] [a A] by x_a.ss01; sub [x X] [e E] by x_e.ss01; sub [x X] [i I] by x_i.ss01; sub [x X] [o O] by x_o.ss01; sub [x X] [u U] by x_u.ss01;
+    sub [y Y] [a A] by y_a.ss01; sub [y Y] [e E] by y_e.ss01; sub [y Y] [i I] by y_i.ss01; sub [y Y] [o O] by y_o.ss01; sub [y Y] [u U] by y_u.ss01;
+    sub [z Z] [a A] by z_a.ss01; sub [z Z] [e E] by z_e.ss01; sub [z Z] [i I] by z_i.ss01; sub [z Z] [o O] by z_o.ss01; sub [z Z] [u U] by z_u.ss01;
+
+    # --- 2-Character Fallbacks (NG Base) ---
+    sub [n N] [g G] by n_g.ss01;
+
+    # --- Contextual & Special Latin Triggers ---
+    sub [ntilde Ntilde] [a A] by ntilde_a.ss01;
+    sub [ccedilla Ccedilla] [a A] by ccedilla_a.ss01;
+    sub [ccedilla Ccedilla] [e E] by ccedilla_e.ss01;
+    sub [ccedilla Ccedilla] [i I] by ccedilla_i.ss01;
+    sub [ccedilla Ccedilla] [o O] by ccedilla_o.ss01;
+    sub [ccedilla Ccedilla] [u U] by ccedilla_u.ss01;
+} BaybayinLigatures;
+
+# ==========================================
+# LOOKUP 3: Single Base Characters
+# ==========================================
+lookup BaybayinBaseFallbacks {
+    sub [a A] by a.ss01; sub [b B] by b.ss01; sub [c C] by c.ss01;
+    sub [d D] by d.ss01; sub [e E] by e.ss01; sub [f F] by f.ss01;
+    sub [g G] by g.ss01; sub [h H] by h.ss01; sub [i I] by i.ss01;
+    sub [j J] by j.ss01; sub [k K] by k.ss01; sub [l L] by l.ss01;
+    sub [m M] by m.ss01; sub [n N] by n.ss01; sub [o O] by o.ss01;
+    sub [p P] by p.ss01; sub [q Q] by q.ss01; sub [r R] by r.ss01;
+    sub [s S] by s.ss01; sub [t T] by t.ss01; sub [u U] by u.ss01;
+    sub [v V] by v.ss01; sub [w W] by w.ss01; sub [x X] by x.ss01;
+    sub [y Y] by y.ss01; sub [z Z] by z.ss01;
+
+    # --- Special Character Fallbacks ---
+    sub [ntilde Ntilde] by ntilde.ss01;
+    sub [ccedilla Ccedilla] by ccedilla.ss01;
+
+    # --- Punctuation ---
+    sub period by period.ss01;
+    sub comma by comma.ss01;
+    sub exclam by exclam.ss01;
+    sub question by question.ss01;
+} BaybayinBaseFallbacks;
+
+# ==========================================
+# LOOKUP 4: Contextual Adjustments (Pamudpod & Edge Cases)
+# ==========================================
+lookup BaybayinContextual {
+    # --- Contextual Ñ/Nya combinations from direct typing ---
+    sub ntilde.ss01 a.ss01 by ntilde_a.ss01;
+    sub ntilde.ss01 e.ss01 by ntilde_e.ss01;
+    sub ntilde.ss01 i.ss01 by ntilde_i.ss01;
+    sub ntilde.ss01 o.ss01 by ntilde_o.ss01;
+    sub ntilde.ss01 u.ss01 by ntilde_u.ss01;
+} BaybayinContextual;
+
+    # --- Terminating Pamudpod Trigger ---
+    # Trigger when followed by punctuation classes.
+    sub @ViramaConsonants_ss01' @Punctuation_ss01 by @Pamudpod_ss01;
+
+} ss01;
+
+feature cpsp {
+# automatic
+pos @Uppercase <5 0 10 0>;
+
+} cpsp;
