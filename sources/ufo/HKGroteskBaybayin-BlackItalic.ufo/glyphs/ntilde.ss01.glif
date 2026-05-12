@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="ntilde.ss01" format="2">
-  <advance width="2144"/>
-  <anchor x="1511" y="0" name="bottom"/>
-  <anchor x="1588" y="542" name="top"/>
-  <outline>
-    <component base="nya_virama-baybayin"/>
-  </outline>
-</glyph>

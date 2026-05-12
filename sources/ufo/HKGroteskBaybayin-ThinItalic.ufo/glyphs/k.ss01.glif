@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="k.ss01" format="2">
-  <advance width="961"/>
-  <anchor x="447" y="0" name="bottom"/>
-  <anchor x="524" y="542" name="top"/>
-  <outline>
-    <component base="ka_virama-baybayin"/>
-  </outline>
-</glyph>

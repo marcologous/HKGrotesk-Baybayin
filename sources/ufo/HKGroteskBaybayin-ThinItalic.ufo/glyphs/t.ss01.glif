@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="t.ss01" format="2">
-  <advance width="942"/>
-  <anchor x="435" y="0" name="bottom"/>
-  <anchor x="512" y="542" name="top"/>
-  <outline>
-    <component base="ta_virama-baybayin"/>
-  </outline>
-</glyph>

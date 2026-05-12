@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="d_e.ss01" format="2">
-  <advance width="988"/>
-  <anchor x="460" y="0" name="bottom_1"/>
-  <anchor x="537" y="542" name="top_1"/>
-  <outline>
-    <component base="da_iPatinig-baybayin"/>
-  </outline>
-</glyph>

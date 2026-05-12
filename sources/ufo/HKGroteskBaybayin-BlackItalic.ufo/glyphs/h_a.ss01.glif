@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="h_a.ss01" format="2">
-  <advance width="1125"/>
-  <anchor x="528" y="0" name="bottom_1"/>
-  <anchor x="605" y="542" name="top_1"/>
-  <outline>
-    <component base="ha-baybayin"/>
-  </outline>
-</glyph>
