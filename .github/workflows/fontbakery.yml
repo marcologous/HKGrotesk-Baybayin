@@ -22,7 +22,7 @@ jobs:
 
       - name: Install Fontbakery
         run: |
-          pip install fontbakery
+          pip install fontbakery[googlefonts] glyphsets
 
       - name: Run Fontbakery check
         run: |

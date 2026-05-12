@@ -14,4 +14,5 @@ gftools>=0.9.35
 varLib>=0.14.0
 
 # For font inspection
-fontbakery>=0.8.0
+fontbakery[googlefonts]>=0.8.0
+glyphsets>=0.6.0
