@@ -1,0 +1,17 @@
+# Hanken Grotesk Baybayin Build Requirements
+
+## Python Dependencies
+
+fontmake>=3.0.0
+glyphsLib>=6.0.0
+fonttools>=4.38.0
+ufo2ft>=2.26.0
+gftools>=0.9.35
+
+## Optional Dependencies
+
+# For variable font building
+varLib>=0.14.0
+
+# For font inspection
+fontbakery>=0.8.0

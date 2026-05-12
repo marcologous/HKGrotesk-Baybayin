@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="a.ss01" format="2">
-  <advance width="1054"/>
-  <anchor x="509" y="0" name="bottom"/>
-  <anchor x="586" y="542" name="top"/>
-  <outline>
-    <component base="a-baybayin"/>
-  </outline>
-</glyph>

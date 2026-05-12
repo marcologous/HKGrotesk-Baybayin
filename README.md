@@ -1,4 +1,4 @@
-# HK Grotesk Baybayin
+# Hanken Grotesk Baybayin
 
 A Baybayin script typeface based on Hanken Grotesk.
 
@@ -6,9 +6,9 @@ A Baybayin script typeface based on Hanken Grotesk.
 
 ## Typeface Overview
 
-HK Grotesk Baybayin is a Baybayin script typeface based on the Hanken Grotesk design. Baybayin is a pre-colonial Philippine script used by the Tagalog, Kapampangan, and Pangasinan peoples. This project adapts the Hanken Grotesk Neo-Grotesque design to support Baybayin characters while maintaining visual consistency with the original Latin typeface.
+Hanken Grotesk Baybayin is a Baybayin script typeface based on the Hanken Grotesk design. Baybayin is a pre-colonial Philippine script used by the Tagalog, Kapampangan, and Pangasinan peoples. This project adapts the Hanken Grotesk Neo-Grotesque design to support Baybayin characters while maintaining visual consistency with the original Latin typeface.
 
-The HK Grotesk Baybayin project is led by Alfredo Marco Pradil.
+The Hanken Grotesk Baybayin project is led by Alfredo Marco Pradil.
 
 ---
 
@@ -125,7 +125,7 @@ Contributions are welcome. Please review the [contribution guidelines](CONTRIBUT
 
 ## License
 
-HK Grotesk Baybayin is distributed under the **SIL Open Font License 1.1**.
+Hanken Grotesk Baybayin is distributed under the **SIL Open Font License 1.1**.
 
 See [OFL.txt](OFL.txt) for full license text.
 

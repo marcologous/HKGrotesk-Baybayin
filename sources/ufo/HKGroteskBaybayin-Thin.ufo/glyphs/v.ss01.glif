@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="v.ss01" format="2">
-  <advance width="965"/>
-  <anchor x="482" y="0" name="bottom"/>
-  <anchor x="482" y="542" name="top"/>
-  <outline>
-    <component base="ba_virama-baybayin"/>
-  </outline>
-</glyph>

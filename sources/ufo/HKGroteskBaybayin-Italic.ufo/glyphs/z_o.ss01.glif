@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="z_o.ss01" format="2">
-  <advance width="1100"/>
-  <anchor x="529" y="0" name="bottom_1"/>
-  <anchor x="606" y="542" name="top_1"/>
-  <outline>
-    <component base="sa_uPatinig-baybayin"/>
-  </outline>
-</glyph>
