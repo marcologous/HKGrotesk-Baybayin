@@ -114,23 +114,21 @@ def build_fonts():
         for f in os.listdir(FONTS_DIR):
             if f.endswith('.ttf'):
                 font_path = os.path.join(FONTS_DIR, f)
-                # Create backup
-                backup_path = font_path + '.bak'
-                shutil.copy(font_path, backup_path)
+                temp_path = font_path + '.tmp'
                 
-                # Run ttfautohint
+                # Run ttfautohint (output to temp file, then replace)
                 result = subprocess.run(
-                    ['ttfautohint', font_path, font_path],
+                    ['ttfautohint', font_path, temp_path],
                     capture_output=True,
                     text=True
                 )
-                if result.returncode != 0:
-                    print(f"  WARNING: ttfautohint failed for {f}")
-                    # Restore backup
-                    shutil.move(backup_path, font_path)
-                else:
-                    os.remove(backup_path)
+                if result.returncode == 0:
+                    shutil.move(temp_path, font_path)
                     print(f"  {f} (ttfautohint)")
+                else:
+                    if os.path.exists(temp_path):
+                        os.remove(temp_path)
+                    print(f"  WARNING: ttfautohint failed for {f}")
     elif gftools_available:
         # Try gftools fix-nonhinting
         print("  ttfautohint not found, using gftools...")
@@ -198,6 +196,10 @@ def fix_name_table():
                 # 0xFFFF means "all other sizes"
                 gasp.gaspRange[0xFFFF] = 0x000F  # grid-fitting and smoothing
                 font['gasp'] = gasp
+            
+            # Fix head table flags (bit 3 for hinted fonts)
+            if 'head' in font:
+                font['head'].flags = font['head'].flags | 8
             
             font.save(font_path)
             print(f"  Fixed: {f}")
