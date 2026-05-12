@@ -22,11 +22,11 @@ jobs:
 
       - name: Install Fontbakery
         run: |
-          pip install fontbakery
+          pip install "fontbakery[googlefonts]>=0.8.15" "glyphsets>=0.6.0"
 
       - name: Run Fontbakery check
         run: |
-          fontbakery check-googlefonts fonts/*.ttf
+          fontbakery check-googlefonts fonts/HankenGroteskBaybayin-Regular.ttf
 
       - name: Upload Fontbakery report
         if: always()
