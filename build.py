@@ -179,12 +179,38 @@ def fix_name_table():
                 if record.nameID == 0:
                     record.string = COPYRIGHT
             
-            # Fix family name (name ID 1) if needed
+            # Fix family name (name ID 1) - keep it short
             for record in font['name'].names:
                 if record.nameID == 1:
-                    # Update to match new family name
-                    if 'HK Grotesk' in record.toUnicode():
+                    # Keep name ID 1 short (max 31 chars for Microsoft)
+                    if 'HK Grotesk' in record.toUnicode() or len(record.toUnicode()) > 31:
                         record.string = FAMILY_NAME
+            
+            # Also fix name ID 16 (Subfamily) to ensure proper display
+            for record in font['name'].names:
+                if record.nameID == 16:
+                    # Extract weight from current value
+                    current = record.toUnicode()
+                    if 'ExtraBold' in current:
+                        record.string = 'ExtraBold'
+                    elif 'ExtraLight' in current:
+                        record.string = 'ExtraLight'
+                    elif 'SemiBold' in current:
+                        record.string = 'SemiBold'
+                    elif 'Medium' in current:
+                        record.string = 'Medium'
+                    elif 'Bold' in current:
+                        record.string = 'Bold'
+                    elif 'Light' in current:
+                        record.string = 'Light'
+                    elif 'Thin' in current:
+                        record.string = 'Thin'
+                    elif 'Black' in current:
+                        record.string = 'Black'
+                    elif 'Regular' in current or 'Normal' in current:
+                        record.string = 'Regular'
+                    elif 'Italic' in current:
+                        record.string = 'Italic'
             
             # Add gasp table if not present
             from fontTools.ttLib.tables._g_a_s_p import table__g_a_s_p
@@ -200,6 +226,9 @@ def fix_name_table():
             # Fix head table flags (bit 3 for hinted fonts)
             if 'head' in font:
                 font['head'].flags = font['head'].flags | 8
+            
+            # Note: STAT table is optional for static fonts
+            # It would be needed for variable fonts or proper font family grouping
             
             font.save(font_path)
             print(f"  Fixed: {f}")
