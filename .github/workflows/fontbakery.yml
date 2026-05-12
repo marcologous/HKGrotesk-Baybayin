@@ -26,10 +26,7 @@ jobs:
 
       - name: Run Fontbakery check
         run: |
-          fontbakery check-googlefonts fonts/*.ttf \
-            --skip "com.google.fonts/check/nameid1-too-long" \
-            --skip "com.google.fonts/check/too-many" \
-            --skip "com.google.fonts/check/no-stat"
+          fontbakery check-googlefonts fonts/HankenGroteskBaybayin-Regular.ttf
 
       - name: Upload Fontbakery report
         if: always()
